@@ -4,7 +4,8 @@
   "description": "Api for CoronavirusApp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "now-start": "node .",
+    "start": "nodemon ."
   },
   "author": "Alejandro Roa",
   "license": "ISC",
@@ -19,5 +20,8 @@
     "node-cron": "^2.0.3",
     "node-fetch": "^2.6.0",
     "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
