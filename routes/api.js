@@ -11,7 +11,7 @@ cities = []
 /******************
  * ENDPOINTS
  ******************/
-router.get('/coronavirusapi/:country', (req, res) => {
+router.get('/country/:country', (req, res) => {
     getCities(req, res)
 });
 
